@@ -3,18 +3,18 @@ body{
   font-optical-sizing: auto;
   font-weight: 0;
   font-style: normal;
-  background: #bdcfff;
 }
 
 header{
-    background-color: rgb(146, 238, 207);
-    padding: 40px;
+    background-color: #bdcfff;
+    padding: 40px 0 10px 0;
 }
 
 header div, .container__contenido{
     width: 90%;
     display: block;
-    margin: 30px auto;
+    margin: 0 auto;
+    padding: 20px 0 60px 0;
 }
 
 .titulo__principal{
@@ -22,7 +22,7 @@ header div, .container__contenido{
     width: fit-content;
     padding: 29px 59px;
     margin: 0 auto;
-    background-color: rgb(210, 245, 233);
+    background-color: rgb(157, 247, 215);
     border: 1px solid #000;
     border-radius: 11px;
     transition: 0.5s all;
@@ -34,10 +34,14 @@ header div, .container__contenido{
     cursor: default;
 }
 
+main {
+    background: linear-gradient(#bdcfff, rgb(146, 238, 207));
+}
+
 .container_informacion{
     width: 89%;
     display: block;
-    margin: 70px auto;
+    margin: 0 auto;
     cursor: default;
 }
 
@@ -45,17 +49,19 @@ header div, .container__contenido{
     font-size: 23px;
     width: 520px;
     padding: 20px 40px;
-    margin: 35px auto;
+    margin: 0 auto;
+    margin-bottom: 60px;
     text-align: center;
     border: 1px solid #000;
     border-radius: 23px;
-    background: rgb(155, 248, 217);
+    background: rgb(60, 194, 194);
 }
 
-.container_botones{
+.container_botones, .container_reboot_button{
     width: 850px;
     display: block;
     margin: 0 auto;
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -79,7 +85,6 @@ header div, .container__contenido{
 footer{
     background: url(img/background-footer.jpg);
     padding: 20px;
-    margin: 50px 0 0;
     text-align: center;
 }
 
